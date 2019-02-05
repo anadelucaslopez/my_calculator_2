@@ -20,6 +20,13 @@ function cuad() {
 
 }
 
+
+function sin() {
+	 var num = document.getElementById("n1");
+        num.value = Math.sin(num.value);
+}        
+	
+
 </script>
 </head>
 <body>
@@ -31,6 +38,7 @@ function cuad() {
 		<button onclick="cuad()"> x^2 </button>
 		<button onclick="inv()"> 1/x </button>
 		<button onclick="cuad()"> x^4 </button>
+		<button onclick="sin()"> sin(x) </button>
 
         </p>
 </body>
